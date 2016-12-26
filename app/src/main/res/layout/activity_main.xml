@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mra.elisafrisorsalon.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:src="@drawable/pic"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="Elisa Frisør Salon"
+        android:textColor="#E0F7FA"
+        android:textSize="34sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="72dp"
+        android:paddingTop="8dp"
+        android:background="#3F51B5"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Beauty and PersonalCare"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:paddingLeft="72dp"
+        android:paddingTop="0dp"
+        android:background="#3F51B5"
+        android:textColor="#E0F7FA"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="Hammeren 31, 2630 Taastrup, Denmark"
+        android:textSize="16sp"
+        android:paddingLeft="72dp"
+        android:paddingTop="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="tel: +45 43 99 11 31"
+        android:textSize="16sp"
+        android:paddingLeft="72dp"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Opening Hours :"
+        android:paddingLeft="72dp"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Monday - Closed"
+        android:paddingLeft="72dp"
+        android:textColor="#E57373"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tuesday - 10.00-17.00"
+        android:paddingLeft="72dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Wednesday - 10.00-17.00 "
+        android:paddingLeft="72dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Thursday - 10.00-17.00"
+        android:paddingLeft="72dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Friday - 10.00-17.00"
+        android:paddingLeft="72dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Saturday - 09.00-14.00"
+        android:paddingLeft="72dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sunday - Closed"
+        android:paddingLeft="72dp"
+        android:textColor="#E57373"
+        android:layout_marginBottom="32dp"
+
+        />
+
+</LinearLayout>
